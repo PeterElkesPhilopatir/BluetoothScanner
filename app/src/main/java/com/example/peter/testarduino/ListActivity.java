@@ -10,6 +10,7 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 
 public class ListActivity extends AppCompatActivity implements DeviceListFragment.OnFragmentInteractionListener  {
@@ -71,6 +72,7 @@ public class ListActivity extends AppCompatActivity implements DeviceListFragmen
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
+//            Toast.makeText(this,"Settings",Toast.LENGTH_SHORT).show();
             return true;
         }
 
